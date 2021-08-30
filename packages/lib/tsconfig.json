@@ -1,0 +1,39 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        // base
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "experimentalDecorators": true,
+        "lib": ["dom", "es2020"],
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "declaration": true,
+        "noEmitHelpers": true,
+
+        // dom
+        "jsx": "react",
+        "module": "esnext",
+        "target": "es2020",
+
+        // proj
+        "baseUrl": "./src",
+        "rootDir": "./",
+        "noEmit": false,
+        "noEmitOnError": true,
+        "outDir": "dist/types/latest",
+        "declarationMap": false,
+        "importsNotUsedAsValues": "error",
+        "strictFunctionTypes": false,
+        "noImplicitAny": false,
+        "typeRoots": [
+            "node_modules/@types",
+            "./src/types"
+        ],
+    },
+    "include": ["./src"]
+}
