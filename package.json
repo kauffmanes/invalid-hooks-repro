@@ -10,6 +10,6 @@
     ]
   },
   "scripts": {
-    "build": "yarn workspace lib build && yarn workspace app build"
+    "build": "yarn workspace components-lib build && yarn workspace app build"
   }
 }
