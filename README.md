@@ -32,3 +32,6 @@ export default App;
 1. Install dependencies: `yarn`
 2. Build components: `yarn workspace components-lib build`
 3. Start app: `yarn workspace app start`
+
+[SO question that is currently unsolved but feels related:
+](https://stackoverflow.com/questions/57455200/cant-use-hooks-with-my-react-component-library-invariant-violation-invalid-hoo)
