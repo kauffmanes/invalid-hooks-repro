@@ -28,3 +28,7 @@ function App() {
 export default App;
 
 ```
+
+1. Install dependencies: `yarn`
+2. Build components: `yarn workspace components-lib build`
+3. Start app: `yarn workspace app start`
